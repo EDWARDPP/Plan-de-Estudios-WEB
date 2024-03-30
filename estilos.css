@@ -8,3 +8,13 @@
     color: #fff;
     background-color:#0330C2 ;
 }
+
+@media (max-width: 900px) {
+    #carouselE1 {
+        max-height: 300px; 
+    }
+
+    .carousel-caption {
+        font-size: 14px; 
+    }
+}

@@ -1,0 +1,100 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.bubble {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    animation: float 3s ease-in-out infinite; 
+}
+
+.bi-peis {
+    background-color: rgba(15, 15, 237, 0.814);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-es {
+    background-color: rgb(8, 173, 22);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-tdi {
+    background-color: rgb(12, 160, 235);    
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-m {
+    background-color:rgb(252, 113, 48);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-ac {
+    background-color: rgb(255, 34, 0);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-sb {
+    background-color: rgba(171, 0, 180, 0.854);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+
+
+.bubble:hover {
+    border-color: red;
+    background-color: white;
+    text-emphasis-color: blue;
+}
+
+.bubble h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.bubble p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes float-1 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.bubble-1 {
+    animation: float-1 3s ease-in-out infinite; 
+}
