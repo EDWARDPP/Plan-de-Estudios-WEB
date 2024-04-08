@@ -9,12 +9,28 @@
     background-color:#0330C2 ;
 }
 
-@media (max-width: 900px) {
-    #carouselE1 {
-        max-height: 300px; 
+@media (max-width: 576px) {
+    .carousel-caption h4 {
+        font-size: 1.2rem; 
+    }
+    .carousel-caption p {
+        font-size: 0.8rem; 
     }
 
-    .carousel-caption {
-        font-size: 14px; 
+    .carousel-caption a {
+        font-size: 1.1rem ;
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-caption h4 {
+        font-size: 1.8rem; 
+    }
+    .carousel-caption p {
+        font-size: 1.5rem; 
+    }
+
+    .carousel-caption a {
+        font-size: 1.7rem ;
     }
 }

@@ -10,13 +10,26 @@
     width: 210px;
     height: 210px;
     border-radius: 50%;
-    background-color: #e0e0e0;
+    background-color: inherit;
     margin: 10px;
     padding: 20px;
     text-align:center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     animation: float 3s ease-in-out infinite; 
 
+}
+
+
+.bubble-1 {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: inherit;
+    margin: 10px;
+    padding: 20px;
+    text-align:center;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    animation: float-1 3s ease-in-out infinite; 
 }
 
 
@@ -26,10 +39,18 @@
     max-width: 25px;
 }
 
+.bi-peis-bg {
+    background-color: rgba(15, 15, 237, 0.814);
+}
+
 .bi-es {
     background-color: rgb(8, 173, 22);
     max-height: 23px;
     max-width: 25px;
+}
+
+.bi-es-bg {
+    background-color: rgb(8, 173, 22);
 }
 
 .bi-tdi {
@@ -38,10 +59,18 @@
     max-width: 25px;
 }
 
+.bi-tdi-bg {
+    background-color: rgb(12, 160, 235);    
+}
+
 .bi-m {
     background-color:rgb(252, 113, 48);
     max-height: 23px;
     max-width: 25px;
+}
+
+.bi-m-bg {
+    background-color:rgb(252, 113, 48);
 }
 
 .bi-ac {
@@ -50,10 +79,18 @@
     max-width: 25px;
 }
 
+.bi-ac-bg {
+    background-color: rgb(255, 34, 0);
+}
+
 .bi-sb {
     background-color: rgba(171, 0, 180, 0.854);
     max-height: 23px;
     max-width: 25px;
+}
+
+.bi-sb-bg {
+    background-color: rgba(171, 0, 180, 0.854);
 }
 
 
@@ -64,15 +101,13 @@
     text-emphasis-color: blue;
 }
 
-.bubble h3 {
-    font-size: 16px;
-    margin-bottom: 5px;
+.bubble-1:hover {
+    border-color: red;
+    background-color: white;
+    text-emphasis-color: blue;
 }
 
-.bubble p {
-    font-size: 14px;
-    margin-bottom: 5px;
-}
+
 
 @keyframes float {
     0% {
@@ -98,6 +133,3 @@
     }
 }
 
-.bubble-1 {
-    animation: float-1 3s ease-in-out infinite; 
-}
