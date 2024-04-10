@@ -1,12 +1,12 @@
 .btn-hover:hover {
     color: #fff;
-    background-color: red;
-    border-color: blueviolet;
+    background: linear-gradient( to top,  #970505, #d41616);
+    border-color: red;
 }
 
 .btn-blue{
     color: #fff;
-    background-color:#0330C2 ;
+    background: linear-gradient( to top,  #052691, #1437d5);
 }
 
 @media (max-width: 576px) {
@@ -19,6 +19,21 @@
 
     .carousel-caption a {
         font-size: 1.1rem ;
+    }
+
+    .container h2 {
+        font-size: 1.1rem;
+    }
+
+    .container h3 {
+        font-size: 1.0rem;
+    }
+    .container p {
+        font-size: 0.8rem;
+    }
+
+    .navbar i {
+        font-size: 0.7rem ;
     }
 }
 
@@ -33,4 +48,20 @@
     .carousel-caption a {
         font-size: 1.7rem ;
     }
+
+    .container h2 {
+        font-size: 1.8rem;
+    }
+
+    .container h3 {
+        font-size: 1.7rem;
+    }
+    .container p {
+        font-size: 1.4rem;
+    }
+
+    .navbar i {
+        font-size: 1.2rem ;
+    }
 }
+

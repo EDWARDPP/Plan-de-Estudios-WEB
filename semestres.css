@@ -7,9 +7,9 @@
 
 .bubble {
    
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 45%;
     background-color: inherit;
     margin: 10px;
     padding: 20px;
@@ -21,9 +21,9 @@
 
 
 .bubble-1 {
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
+    width: 14rem;
+    height: 14rem;
+    border-radius: 45%;
     background-color: inherit;
     margin: 10px;
     padding: 20px;
@@ -105,6 +105,36 @@
     border-color: red;
     background-color: white;
     text-emphasis-color: blue;
+}
+
+
+@media (max-width: 576px) {
+    .gallery h3{
+        font-size: 1.1rem;
+    }
+
+
+    .gallery p {
+        font-size: 0.8rem;
+    }
+
+
+
+}
+
+@media (min-width: 768px) {
+    .gallery h3{
+        font-size: 1.5rem;
+    }
+    .gallery p {
+        font-size: 1.2rem;
+    }
+
+    .gallery h6{
+        font-size: 1.25rem;
+    }
+    
+    
 }
 
 
