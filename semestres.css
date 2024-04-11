@@ -11,10 +11,10 @@
     height: 14rem;
     border-radius: 45%;
     background-color: inherit;
-    margin: 10px;
-    padding: 20px;
+    margin: 1rem;
+    padding: 1rem;
     text-align:center;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.15rem 0.25rem rgba(239, 230, 230, 0.973);
     animation: float 3s ease-in-out infinite; 
 
 }
@@ -25,10 +25,10 @@
     height: 14rem;
     border-radius: 45%;
     background-color: inherit;
-    margin: 10px;
-    padding: 20px;
+    margin: 1rem;
+    padding: 1rem;
     text-align:center;
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.15rem 0.25rem rgba(239, 230, 230, 0.973);
     animation: float-1 3s ease-in-out infinite; 
 }
 
@@ -113,9 +113,33 @@
         font-size: 1.1rem;
     }
 
+    .gallery h6{
+        font-size: 0.9rem;
+    }
+
 
     .gallery p {
         font-size: 0.8rem;
+    }
+
+    .simbology p{
+        font-size: 0.8rem;
+    }
+
+    .bubble {
+        width: 10rem; 
+        height: 10rem; 
+        padding: 0.7rem; 
+        margin: 0.7rem; 
+        box-shadow: 0 0.2rem 0.5rem rgba(253, 249, 249, 0.976);
+    }
+
+    .bubble-1 {
+        width: 10rem; 
+        height: 10rem; 
+        padding: 0.7rem; 
+        margin: 0.7em; 
+        box-shadow: 0 0.2rem 0.5rem rgba(253, 249, 249, 0.976); 
     }
 
 
@@ -134,6 +158,9 @@
         font-size: 1.25rem;
     }
     
+    .simbology p{
+        font-size: 1.28rem;
+    }
     
 }
 
