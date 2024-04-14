@@ -1,3 +1,10 @@
+body {
+    background-image: url('img/back.png'); 
+    background-size:cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -7,26 +14,35 @@
 
 .bubble {
    
-    width: 14rem;
-    height: 14rem;
+    width: 16rem;
+    height: 16rem;
     border-radius: 45%;
     background-color: inherit;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1.1rem;
+    padding: 1.1rem;
     text-align:center;
     box-shadow: 0 0.15rem 0.25rem rgba(239, 230, 230, 0.973);
     animation: float 3s ease-in-out infinite; 
+}
 
+.bubble a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bubble-1 a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
 .bubble-1 {
-    width: 14rem;
-    height: 14rem;
+    width: 16rem;
+    height: 16rem;
     border-radius: 45%;
     background-color: inherit;
-    margin: 1rem;
-    padding: 1rem;
+    margin: 1.1rem;
+    padding: 1.1rem;
     text-align:center;
     box-shadow: 0 0.15rem 0.25rem rgba(239, 230, 230, 0.973);
     animation: float-1 3s ease-in-out infinite; 
@@ -97,13 +113,13 @@
 
 .bubble:hover {
     border-color: red;
-    background-color: white;
+    background: linear-gradient(to bottom, rgba(255, 17, 17, 0.738),rgba(251, 104, 104, 0.99));
     text-emphasis-color: blue;
 }
 
 .bubble-1:hover {
     border-color: red;
-    background-color: white;
+    background: linear-gradient(to bottom, rgba(255, 17, 17, 0.738),rgba(251, 104, 104, 0.99));
     text-emphasis-color: blue;
 }
 
@@ -148,19 +164,26 @@
 
 @media (min-width: 768px) {
     .gallery h3{
-        font-size: 1.5rem;
+        font-size: 1.7rem;
     }
     .gallery p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     .gallery h6{
-        font-size: 1.25rem;
+        font-size: 1.42rem;
+        
     }
     
     .simbology p{
-        font-size: 1.28rem;
+        font-size: 1.6rem;
     }
+
+    .simbology h2{
+        margin: 1rem;
+       
+    }
+
     
 }
 
