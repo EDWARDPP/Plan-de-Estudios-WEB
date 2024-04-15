@@ -129,6 +129,10 @@ body {
         font-size: 1.1rem;
     }
 
+    .gallery h4{
+        font-size: 1rem;
+    }
+
     .gallery h6{
         font-size: 0.9rem;
     }
@@ -158,6 +162,16 @@ body {
         box-shadow: 0 0.2rem 0.5rem rgba(253, 249, 249, 0.976); 
     }
 
+    .navigation img{
+        width: 2.9rem; 
+        height: 2.9rem;
+    }
+
+    .navigation span{
+       font-size: 1rem;
+    }
+
+
 
 
 }
@@ -165,14 +179,22 @@ body {
 @media (min-width: 768px) {
     .gallery h3{
         font-size: 1.7rem;
+        margin-top: 0.3rem;
     }
-    .gallery p {
-        font-size: 1.3rem;
+
+    .gallery h4{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
     }
 
     .gallery h6{
         font-size: 1.42rem;
+        margin-top: 0.2rem;
         
+    }
+
+    .gallery p {
+        font-size: 1.3rem;
     }
     
     .simbology p{
@@ -182,6 +204,15 @@ body {
     .simbology h2{
         margin: 1rem;
        
+    }
+
+    .navigation img{
+        width: 4.1rem; 
+        height: 4.1rem;
+    }
+
+    .navigation span{
+       font-size: 1.6rem;
     }
 
     
