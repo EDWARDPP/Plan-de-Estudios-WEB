@@ -127,14 +127,17 @@ body {
 @media (max-width: 576px) {
     .gallery h3{
         font-size: 1.1rem;
+        margin-top: 0.2rem;
     }
 
     .gallery h4{
         font-size: 1rem;
+        margin-top: 0.2rem;
     }
 
     .gallery h6{
         font-size: 0.9rem;
+        margin-top: 0.2rem;
     }
 
 
@@ -179,7 +182,7 @@ body {
 @media (min-width: 768px) {
     .gallery h3{
         font-size: 1.7rem;
-        margin-top: 0.3rem;
+        margin-top: 0.6rem;
     }
 
     .gallery h4{
@@ -189,7 +192,7 @@ body {
 
     .gallery h6{
         font-size: 1.42rem;
-        margin-top: 0.2rem;
+        margin-top: 1rem;
         
     }
 
@@ -198,11 +201,11 @@ body {
     }
     
     .simbology p{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 
     .simbology h2{
-        margin: 1rem;
+        margin: 0.5rem;
        
     }
 
