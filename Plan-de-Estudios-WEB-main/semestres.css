@@ -1,0 +1,246 @@
+body {
+    background-image: url('img/back.png'); 
+    background-size:cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.bubble {
+   
+    width: 16rem;
+    height: 16rem;
+    border-radius: 45%;
+    background-color: inherit;
+    margin: 1.1rem;
+    padding: 1.1rem;
+    text-align:center;
+    box-shadow: 0 0.15rem 0.25rem rgba(239, 230, 230, 0.973);
+    animation: float 3s ease-in-out infinite; 
+}
+
+.bubble a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.bubble-1 a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.bubble-1 {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 45%;
+    background-color: inherit;
+    margin: 1.1rem;
+    padding: 1.1rem;
+    text-align:center;
+    box-shadow: 0 0.15rem 0.25rem rgba(239, 230, 230, 0.973);
+    animation: float-1 3s ease-in-out infinite; 
+}
+
+
+.bi-peis {
+    background-color: rgba(15, 15, 237, 0.814);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-peis-bg {
+    background-color: rgba(15, 15, 237, 0.814);
+}
+
+.bi-es {
+    background-color: rgb(8, 173, 22);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-es-bg {
+    background-color: rgb(8, 173, 22);
+}
+
+.bi-tdi {
+    background-color: rgb(12, 160, 235);    
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-tdi-bg {
+    background-color: rgb(12, 160, 235);    
+}
+
+.bi-m {
+    background-color:rgb(252, 113, 48);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-m-bg {
+    background-color:rgb(252, 113, 48);
+}
+
+.bi-ac {
+    background-color: rgb(255, 34, 0);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-ac-bg {
+    background-color: rgb(255, 34, 0);
+}
+
+.bi-sb {
+    background-color: rgba(171, 0, 180, 0.854);
+    max-height: 23px;
+    max-width: 25px;
+}
+
+.bi-sb-bg {
+    background-color: rgba(171, 0, 180, 0.854);
+}
+
+
+
+.bubble:hover {
+    border-color: red;
+    background: linear-gradient(to bottom, rgba(255, 17, 17, 0.738),rgba(251, 104, 104, 0.99));
+    text-emphasis-color: blue;
+}
+
+.bubble-1:hover {
+    border-color: red;
+    background: linear-gradient(to bottom, rgba(255, 17, 17, 0.738),rgba(251, 104, 104, 0.99));
+    text-emphasis-color: blue;
+}
+
+
+@media (max-width: 576px) {
+    .gallery h3{
+        font-size: 1.1rem;
+    }
+
+    .gallery h4{
+        font-size: 1rem;
+    }
+
+    .gallery h6{
+        font-size: 0.9rem;
+    }
+
+
+    .gallery p {
+        font-size: 0.8rem;
+    }
+
+    .simbology p{
+        font-size: 0.8rem;
+    }
+
+    .bubble {
+        width: 10rem; 
+        height: 10rem; 
+        padding: 0.7rem; 
+        margin: 0.7rem; 
+        box-shadow: 0 0.2rem 0.5rem rgba(253, 249, 249, 0.976);
+    }
+
+    .bubble-1 {
+        width: 10rem; 
+        height: 10rem; 
+        padding: 0.7rem; 
+        margin: 0.7em; 
+        box-shadow: 0 0.2rem 0.5rem rgba(253, 249, 249, 0.976); 
+    }
+
+    .navigation img{
+        width: 2.9rem; 
+        height: 2.9rem;
+    }
+
+    .navigation span{
+       font-size: 1rem;
+    }
+
+
+
+
+}
+
+@media (min-width: 768px) {
+    .gallery h3{
+        font-size: 1.7rem;
+        margin-top: 0.3rem;
+    }
+
+    .gallery h4{
+        font-size: 1.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .gallery h6{
+        font-size: 1.42rem;
+        margin-top: 0.2rem;
+        
+    }
+
+    .gallery p {
+        font-size: 1.3rem;
+    }
+    
+    .simbology p{
+        font-size: 1.6rem;
+    }
+
+    .simbology h2{
+        margin: 1rem;
+       
+    }
+
+    .navigation img{
+        width: 4.1rem; 
+        height: 4.1rem;
+    }
+
+    .navigation span{
+       font-size: 1.6rem;
+    }
+
+    
+}
+
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes float-1 {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
